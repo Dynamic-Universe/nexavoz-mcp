@@ -1,8 +1,8 @@
-// Nexavoz MCP server - Streamable HTTP (JSON-RPC), sin dependencias externas.
+// Nexavoz MCP server (ES module) - Streamable HTTP (JSON-RPC), sin dependencias externas.
 // Requiere Node >= 18. Variables de entorno: SUPABASE_URL, SUPABASE_SERVICE_KEY, MCP_TOKEN
 // Opcional: ALLOWED_TABLES="tabla1,tabla2" para limitar el acceso a tablas.
 
-const http = require("http");
+import http from "node:http";
 
 const PORT = process.env.PORT || 10000;
 const { SUPABASE_URL, SUPABASE_SERVICE_KEY, MCP_TOKEN } = process.env;
