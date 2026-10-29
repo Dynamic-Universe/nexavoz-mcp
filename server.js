@@ -1,4 +1,4 @@
-// Nexavoz MCP server (ES module) - Streamable HTTP (JSON-RPC), sin dependencias externas.
+Nexavoz MCP server (ES module) - Streamable HTTP (JSON-RPC), sin dependencias externas.
 // Requiere Node >= 18. Variables de entorno: SUPABASE_URL, SUPABASE_SERVICE_KEY, MCP_TOKEN
 // Opcional: ALLOWED_TABLES="tabla1,tabla2" para limitar el acceso a tablas.
 
